@@ -1,0 +1,7 @@
+name: Leaflet Permalink Plugin
+type: module
+description: Adds a permalink to your maps.
+core: 8.x
+package: Leaflet
+dependencies:
+  - leaflet

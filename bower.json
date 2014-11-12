@@ -1,0 +1,6 @@
+{
+    "name": "leaflet_permalink",
+    "dependencies": {
+        "leaflet-plugins": "https://github.com/shramov/leaflet-plugins.git#v1.2.0"
+    }
+}

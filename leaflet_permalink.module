@@ -1,0 +1,10 @@
+<?php
+
+/**
+ *  Implements hook_preprocess_HOOK().
+ */
+function leaflet_permalink_preprocess_leaflet_map(&$variables) {
+  if (isset($variables['map']['plugins']['permalink'])) {
+    $variables['#attached']['library'][] = 'leaflet_permalink/wrapper';
+  }
+}
